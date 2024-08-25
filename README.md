@@ -1,6 +1,6 @@
 ## CIABuilder - Toolkit v0.0.1b
 
-Simply convert your .3dsx files to .cia
+Simply convert a .3dsx file to .cia
 
 ### Installation:
 Make sure you have bannertool and makerom installed before running these.
