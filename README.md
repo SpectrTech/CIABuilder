@@ -1,15 +1,15 @@
-## CIABuilder - Toolkit v0.0.1b
+## CIABuilder - Toolkit
 
 Simply convert a .elf file to .cia
 
 ### Installation:
-Make sure you have bannertool and makerom installed before running these.
 ```
 git clone https://github.com/SpectrTech/CIABuilder.git
 cd CIABuilder
+make
 ```
 
 ### How to use:
 ```
-./ciabuilder
+./ciabuilder input.elf output.cia
 ```
