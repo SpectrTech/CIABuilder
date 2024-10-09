@@ -95,7 +95,7 @@ int main(int argc, char* argv[]) {
 	char command[10524];
 
 	printf("+ Creating banner ...\n");
-	snprintf(command, sizeof(command), "bin/bannertool makebanner -i %s -a %s -o banner.bnr > /dev/null", hb_app.app_banner, hb_app.app_sound, hb_app.app_banner);
+	snprintf(command, sizeof(command), "bin/bannertool makebanner -i %s -a %s -o banner.bnr > /dev/null", hb_app.app_banner, hb_app.app_sound);
 	system(command);
 
 	printf("+ Creating SMDH ...\n");
